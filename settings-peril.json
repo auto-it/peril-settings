@@ -6,7 +6,8 @@
   },
   "repos" : {
     "auto-it/test-repo": {
-      "issues.opened": "auto-it/peril-settings@issue_opened.ts"
+      "issues.opened": "auto-it/peril-settings@issue_opened.ts",
+      "pull_request.opened": "auto-it/peril-settings@pr_opened.ts"
     }
   },
   "tasks": {
